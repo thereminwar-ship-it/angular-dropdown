@@ -1,0 +1,19 @@
+/* Add application styles & imports to this file! */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+}
+
+.dropdown-preview {
+  border: 2px solid #ccc;
+  height: 40px;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 300px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
