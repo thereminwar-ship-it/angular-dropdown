@@ -20,7 +20,7 @@ import { MyDropdown } from './components/my-dropdown';
   `,
 })
 export class App {
-  selectedSubject = 0;
+  selectedSubject = '';
   subjects = [
     { Name: 'Art', Colour: '#e91e63' },
     { Name: 'History', Colour: '#673ab7' },
